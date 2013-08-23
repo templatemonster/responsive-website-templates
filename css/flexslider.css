@@ -1,0 +1,59 @@
+
+
+
+.flexslider .slides > li
+ {display: none;position:relative} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flex-pauseplay span {text-transform: capitalize;}
+/* Clearfix for the .slides element */
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+
+.flexslider {
+	margin:0;
+	position:relative;
+}
+
+
+.flex-caption {
+	z-index:10;		
+	position:relative;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.flex-caption p{
+  padding:12px;
+}
+
+.flexslider .slides
+{	
+list-style: none outside none;
+	margin:0;}
+/* Control Nav */
+
+.flexslider .flex-direction-nav{display:none}
+
+.flexslider .flex-control-paging{margin:0;position:absolute;top:-27px;right:0;overflow:hidden}
+.flexslider .flex-control-paging li{float:left;margin:0 0 0 3px;overflow:hidden;padding:0;line-height:0}
+.flexslider .flex-control-paging li a{
+overflow:hidden;
+text-indent:-1000px;
+font-size:0;line-height:0;	
+margin:0;padding:0;
+cursor:pointer;
+	display:block;background:url(../img/pags.png) no-repeat 0 0;width:18px;height:17px;display:block}
+.flexslider .flex-control-paging li a:hover,
+.flexslider .flex-control-paging li a.flex-active
+{background-position:0 bottom} 
+
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+}
+

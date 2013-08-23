@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template Documentation</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+  <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+  <link rel="stylesheet" href="css/idea.css"  media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script> 
+  <script src="js/TMForm.js"></script>
+  <script src="js/sForm.js"></script>  
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/scripts.js"></script>
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="css/ie.css" />
+  <![endif]-->
+
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span4"><a class="brand" href="/help/" target="_blank"></a></article>
+ <article class="span6">
+ <h1><img alt="" src="img/html-icon.png"> HTML Template Documentation</h1>
+  </article> 
+  <article class="span2">
+    <div class="languages pull-right">
+      <!-- <span class="lang_label">Language: </span> --><div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list">
+        <li class="active"><a href="index.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <!--li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
+        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
+        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li-->
+      </ul>
+    </div>
+  </article>   
+  </div>    
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+    <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="clearfix"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Introduction</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#unzipping-template-package" class="icon-check">Unzipping Template Package</a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#general-information" class="icon-play">General Information</a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item4">
+                    <dl class="slide-down">
+                       <dt><a href="#editing-template" class="icon-cog">Editing template</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                         	<ul class="list">          
+                            <li><a href="#editing-html-and-css-files">Editing HTML and CSS files</a></li>
+                            <li><a href="#editing-psd-files">Editing PSD files</a></li>
+                            <li><a href="#custom-fonts">Custom Fonts</a></li>
+                           </ul> 
+                         </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item5">
+                    <dl class="slide-down">
+                      <dt><a href="#customization-tutorials" class="icon-fullscreen">Customization Tutorials</a> <i class="icon-sample"></i></dt>
+                      <dd>
+                          <ul class="list">          
+                          <li><a href="#how-to-edit-text">How to edit text</a></li>
+                          <li><a href="#how-to-edit-images">How to edit images</a></li>
+                          <li><a href="#how-to-activate-contact-form">How to activate contact form</a></li>
+                         </ul> 
+                       </dd>
+                    </dl>
+                  </li>                  
+                  <li class="nav-item item6">
+                    <dl class="slide-down">
+                       <dt><a href="#tm-add-ons" class="icon-wrench">TM add-ons</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                         	<ul class="list">          
+                              <li><a href="#contact-form-manual">Contact form manual</a></li>
+                              <li><a href="#search-engine">Search Engine</a></li>
+                              <li><a href="#under-construction">Under Construction</a></li>
+                              <li><a href="#subscription-form">Subscription Form</a></li>
+                             </ul> 
+                         </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item7">
+                    <dl class="slide-down">
+                       <dt><a href="#uploading-template" class="icon-cogs">Uploading template</a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#conclusion" class="icon-question-sign">Addendum</a></dt>
+                       <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+    </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+<!-- block-started
+================================================== -->
+<section class="block-started"  id="introduction">
+  <h2><i class="icon-info-sign"></i> Introduction <small><i>What can be found in this package and what it can be used for</i></small></h2>
+  <p>Thank you for purchasing a website template from our company. This manual will show you how to work with your template, how to edit it and make it a "live" website. </p>
+  <p>All pages content is made with HTML and dynamic animation is made with JavaScript. </p>
+  
+  
+</section>
+
+<section class="block-templates" id="unzipping-template-package">  
+  <h2><i class="icon-check"></i> Unzipping Template Package </h2>
+  <p>After unzipping the template package you will find 3 folders: &quot;<strong>documentation</strong>&quot;, &quot;<strong>screenshots</strong>&quot; and &quot;<strong>site</strong>&quot;. You can also see a zip archive called &quot;<strong>sources_############.zip</strong>&quot; that you need to unzip. </p>
+            <p>The sources package contains all source files for the template. The package is password protected and can be extracted only with <a href="/help/unzipping-your-template.html" target="_blank">WinZip (Windows OS)</a> and <a href="/help/how-unzip-template-mac.html" target="_blank">StuffitExpander (MAC OS)</a> software.</p>
+            <p>You can download both applications for free using the free trial options:</p>
+            <ul  class="square-list">
+            <li><a href="http://www.winzip.com/downauto.cgi?o=1&amp;file=http://download.winzip.com/winzip160.exe&amp;email=&amp;er=&amp;os=win" target="_blank">WinZip</a></li>
+            <li><a href="http://www.stuffit.com/mac-stuffit-download.html" target="_blank">StuffitExpander</a></li>
+          </ul>
+            <p class="notification-box">While unzipping "sources_############.zip" archive you will be prompted to enter a password, which you can find at your Product Download Page (open the link in the email you received from our company).</p>
+            <p>As soon as you are done with the unzipping the template you should have 4 folders in total: &quot;<strong>documentation</strong>&quot;, &quot;<strong>screenshots</strong>&quot;, &quot;<strong>site</strong>&quot; and &quot;<strong>sources</strong>&quot;.</p>
+</section>
+
+<section class="block-templates" id="general-information">  
+  <h2><i class="icon-play"></i> General Information </h2>
+  <h3>Software requirements</h3>
+  <p><strong>Adobe Dreamweaver</strong> (<a href="http://www.adobe.com/products/dreamweaver/" target="_blank">download free trial</a>). Used to edit the .HTML, .JS, .PHP and .CSS files.<br/>
+  <strong>Adobe Photoshop CS</strong> or later (<a href="http://www.adobe.com/products/photoshop.html" target="_blank">download free trial</a>). Used to edit .PSD files.</p>
+  <p>The following scheme displays the template files structure. </p>
+  <ul class="files_structure">
+      <li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> – contains documentation on template editing and installation.</small>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>Screenshots</b><small class="muted"> - contains screenshots of the template.</small>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>Site</b><small class="muted"> - contains the .html files of the template.</small>
+        <ul>
+          <li class="folder"><i class="icon-folder-close"></i> bat<small class="muted"> - contains contact form processing .php script.</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> css<small class="muted"> - contains all the .css files used in the design.</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> img<small class="muted"> - contains all the images used in .html files.</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> js<small class="muted"> - contains JavaScript libraries and jQuery plugins.</small></li>
+          <li class="folder"><i class="icon-folder-close"></i> search<small class="muted"> - contains .js, .php and .css file of the search engine.</small></li>
+        </ul>
+      </li>
+      <li class="folder"><i class="icon-folder-close"></i> <b>sources</b><small class="muted"> contains source files.</small>
+        <ul>
+          <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - contains Adobe Photoshop .psd files.</small></li>
+        </ul>
+      </li>
+      <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contains the list of fonts used in template.</small></li>
+      <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contains the information about password protected "sources" folder.</small></li>
+    </ul>
+  
+</section>
+
+
+<section class="block-templates" id="editing-template">
+  <h2><i class="icon-cog"></i> Editing template </h2>
+  
+  <p>Working with the  template you need to edit the <strong>.html</strong>, <strong>.css</strong>, <strong>.js</strong> and <strong>.psd</strong> files. </p>
+  <h3 id="editing-html-and-css-files" class="scrollTo">Editing HTML and CSS files</h3>
+  <p>All editable HTML files are located in "<strong>site</strong>" folder of the template package (index.html, index-1.html,index-2.html, etc.) Each index-#.html file represents a single template page. </p>
+  <p>To open .html file with Adobe Dreamweaver application, you should right mouse click on the file, and in the context menu select <strong>Open with > Adobe Dreamweaver</strong>. When the file is opened you can start editing it.</p>
+  <p>Adobe Dreamweaver is a recommended application as it allows you to edit the HTML files content in visual mode. Open any .html file and click the <strong>Live Code </strong> button at the top of the screen to switch to visual mode. </p>
+  <div class="cols"> <a class="first" href="img/dreamweaver-code.jpg" data-gal="prettyPhoto"><img src="img/dreamweaver-code.jpg" width="360" alt=""></a> <a class="last" href="img/dreamweaver-design.jpg" data-gal="prettyPhoto"><img src="img/dreamweaver-design.jpg" width="360" alt=""></a> </div>
+  <p>Feel free to check the detailed text and video tutorials on <a href="/help/general-tutorials/work-with-html/" target="_blank">how to edit HTML files with Adobe Dreamweaver</a>.</p>
+  <p>CSS files are used to change the template appearance like fonts (font-family, font-size, color etc), backgrounds, column width values etc. You can edit the css files with Adobe Dreamweaver application. Detailed tutorials on <a href="/help/general-tutorials/work-with-css/" target="_blank">how to work with the CSS files</a> are available at our online help center. </p>
+  <h3 id="editing-psd-files" class="scrollTo">Editing PSD files</h3>
+  <p>PSD files are located in the &quot;<strong>sources/psd</strong>&quot; folder in your template package. PSD are the source files of the template design. They are divided into layers so any part of the template design can be changed. </p>
+  <p>During the customization process you can refer to the PSD files in order to change the images used in the content pages or in the design. </p>
+  <p class="cols-1"><a class="last" href="img/photoshop-interface.jpg" data-gal="prettyPhoto"><img src="img/photoshop-interface.jpg" width="460" alt=""></a></p>
+  <p>You can learn more about working with photoshop by<a href="/help/general-tutorials/work-with-photoshop/" target="_blank"> checking the detailed tutorials</a>.</p>
+  <h3 id="custom-fonts" class="scrollTo">Custom Fonts</h3>
+  <p>Some templates may contain the non-default fonts used in the design. By default the internet browser can render only fonts that are installed to your operating system. In other words if your website design uses some custom fonts and these custom fonts are not installed on your website visitor's computer, custom fonts won't be displayed. Default fonts will be rendered instead. That's why web developers should look for some alternative solutions. In our templates custom fonts are embedded using <strong>Google Web Fonts</strong> technology. </p>
+  <h4>Google Web Fonts</h4>
+  <p>You can learn more on using Google Web Fonts by checking the tutorial on <a target="_blank" href="/help/how-to-use-the-google-web-fonts-api.html">how to work with Google web Fonts</a>. </p>
+ </section>
+
+
+<section class="block-templates" id="customization-tutorials">
+  <h2><i class="icon-fullscreen"></i> Customization Tutorials </h2>
+
+  <h3 id="how-to-edit-text" class="scrollTo">How to edit text</h3>
+            <p>Templates are HTML based templates so all content is stored and could be accessed though the .html files.</p>
+            <ol>
+            <li>Open your template package and go to the site folder.</li>
+            <li>There open index.html  file with your HTML editor.</li>
+            <li>You can use the search tool <strong>CTRL+F </strong>to find any text you need.</li>
+            <li>Edit text in HTML editor. Save the file and open it with your Browser to see the changes.</li>
+          </ol>
+            <p>The other way is to use the browser developer tool to find the blocks you want to edit. You can learn more about the developer tools checking the tools description and tutorials.</p>
+            <p>Feel free to check the following <a href="/help/developer-tools.html" target="_blank">Developer Tools</a> article.</p>
+            <p>You can also check the video tutorial on <a target="_blank" href="/help/js-animated-how-to-edit-text.html">how to edit text in JS Animated templates</a></p>
+            <h3 id="how-to-edit-images" class="scrollTo">How to edit images</h3>
+            <p>Open the template folder, go to '<strong>site/images</strong>' directory. You can upload your images with the same name and extension to replace the default ones.</p>
+            <p>The other way is to upload custom images with your titles and extensions. Then you&rsquo;ll need to change the image file names in the html files.</p>
+            <ol>
+            <li>Open <strong>.html</strong> file from the &ldquo;<strong>site</strong>&rdquo; folder with your html editor.</li>
+            <li>Use search tool <strong>CTRL+F</strong> to find the images in the html file.</li>
+            <li>Replace the image title and extension.</li>
+          </ol>
+            <p>You can also check the video tutorial on <a href="/help/js-animated-how-to-change-images.html" target="_blank">how to edit images</a>.</p>
+            <h3 id="how-to-activate-contact-form" class="scrollTo">How to activate contact form</h3>
+            <ol>
+            <li>Open the template folder.</li>
+            <li>Go the <strong>site/js</strong> directory.</li>
+            <li>There open the '<strong>TMForm.js</strong>' file with your editor (Adobe Dreamweaver, Notepad etc).</li>
+            <li>Using the Find and Replace tool (CTRL+F) search for the <strong>ownerEmail</strong> or just scroll down to the very bottom of the page.</li>
+          </ol>
+            <p>You should see the following line:</p>
+            <p> <strong>ownerEmail:'#'</strong> </p>
+            <p>replace <strong>#</strong> symbol with your email address. That's all, now the contact form should send the messages to your email account.</p>
+            <p></p>
+            <p>You can see the detailed tutorial on <a href="/help/js-animated-how-to-activate-contact-form.html" target="_blank">how to activate contact form in your template</a>.</p>
+            
+</section>
+
+<section class="block-templates" id="tm-add-ons">
+  <h2><i class="icon-wrench"></i> TM add-ons </h2>
+  
+    <p>Templates are provided with four free add-ons:</p>
+        <ol>
+            <li><strong>Contact Form</strong> - gives visitors the opportunity to send messages to the site-owner.</li>
+            <li><strong>Search Engine</strong> - performs search through content of .html files.</li>
+            <li><strong>Under Construction</strong> - is the page with countdown timer.</li>
+            <li><strong>Subscription Form</strong> - allows to organize newsletter subscription.</li>
+          </ol>
+        <p class="notification-box">Note, Contact Form, Subscription Form and Search Engine add-ons are already implemented into your template and working by default. Feel free to check the detailed documentation for each add-on in case of additional configuration or in case you are going to implement them into another website/project/template.</p>
+        <h3 id="contact-form-manual" class="scrollTo">Contact Form manual</h3>
+        <article>
+			&nbsp; &nbsp; <strong>Contact Form</strong> gives visitors the opportunity to send messages to the site-owner. The contact data (Name, Email, Text message) is submitted into the corresponding fields. It can be very beneficial if the visitor does not have an Email Client installed or uses someone else's computer (e.g. in the internet club). For this reason we have developed the universal contact form that sends messages to the email specified by the site owner, has the expandable number of fields and transmissible data verification feature. 			
+			<!-- Getting started begin -->
+          <div class="bs-docs-example">
+            <form id="contact-form">
+              <div class="success-message">Contact form submitted.</div>
+              <label class="name">
+                <input type="text" placeholder="Name:" data-constraints="@Required @JustLetters" />
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*This is not a valid name.</span>
+              </label>
+              <label class="state">
+                <input type="text" placeholder="State:" data-constraints="@JustLetters" />
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*This is not a valid state.</span>
+              </label>
+              <label class="email">
+                <input type="text" placeholder="Email:" data-constraints="@Required @Email" />
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*This is not a valid email.</span>
+              </label>
+              <label class="phone">
+                <input type="text" placeholder="Phone:" data-constraints="@Required @JustNumbers"/>
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*This is not a valid phone.</span>
+              </label>
+              <label class="fax">
+                <input type="text" placeholder="Fax:" data-constraints="@JustNumbers" />
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*This is not a valid fax.</span>
+              </label>
+              <label class="message">
+                <textarea placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+                <span class="empty-message">*This field is required.</span>
+                <span class="error-message">*The message is too short.</span>
+              </label>
+              <div>
+                <a href="#" data-type="submit" >submit</a>
+                <a href="#" data-type="reset" >reset</a> 
+              </div>  
+            </form>
+          </div>
+        <!-- Getting started end -->
+					<pre class="prettyprint linenums">
+&lt;form id="contact-form"&gt;
+  &lt;div class="success-message"&gt;this is success message&lt;/div&gt;
+  &lt;label class="name"&gt;
+    &lt;input type="text" placeholder="Name:" data-constraints="@Required @JustLetters" /&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*This is not a valid name.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label class="state"&gt;
+    &lt;input type="text" placeholder="State:" data-constraints="@JustLetters" /&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*This is not a valid state.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label class="email"&gt;
+    &lt;input type="text" placeholder="Email:" data-constraints="@Required @Email" /&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*This is not a valid email.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label class="phone"&gt;
+    &lt;input type="text" placeholder="Phone:" data-constraints="@Required @JustNumbers"/&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*This is not a valid phone.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label class="fax"&gt;
+    &lt;input type="text" placeholder="Fax:" data-constraints="@JustNumbers" /&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*This is not a valid fax.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;label class="message"&gt;
+    &lt;textarea placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'&gt;&lt;/textarea&gt;
+    &lt;div class="empty-message"&gt;*This field is required.&lt;/div&gt;
+    &lt;div class="error-message"&gt;*The message is too short.&lt;/div&gt;
+  &lt;/label&gt;
+  &lt;div&gt;
+    &lt;a href="#" data-type="submit" &gt;submit&lt;/a&gt;
+    &lt;a href="#" data-type="reset" &gt;reset&lt;/a&gt; 
+  &lt;/div&gt;  
+&lt;/form&gt;		</pre>
+        <h4>Description</h4>
+           The HTML structure inside the form is flexible, the only condition is that all the fields (input, textarea HTML elements) should be placed inside the <strong>label</strong> tags that have class corresponding to their type.<br>
+      <p>There are following classes/types by default:</p>
+        <ul class="square-list">
+          <li><strong>name</strong> &ndash; the User's Name. Validation: digits are disallowed, not less than 2 symbols;</li>
+          <li><strong>email</strong> &ndash; the User's Email;</li> 
+          <li><strong>state</strong> &ndash; Country (Area). Validation: digits are disallowed, not less than 2 symbols;</li>
+          <li><strong>phone</strong> &ndash; Phone. Validation: digits only, not less than 5 symbols. Additional acceptable not alphabetical symbols: "space", "+" and "-";</li>
+          <li><strong>fax</strong> &ndash; Fax. Validation: digits only, not less than 5 symbols. Additional acceptable not alphabetical symbols: "space", "+" and "-";</li>
+          <li><strong>message</strong> &ndash; Message. Validation: any symbols, not less than 20 symbols.</li>
+          <li><strong>@Required</strong> &ndash; This data-constraints attribute is used as a pointer for the  optional fields while filling the forms out.</li>
+        </ul>
+			<p>Also <strong>label</strong> tag mentioned above can contain nested <em><strong>span</strong></em> elements with classes <strong>error-message</strong> and <strong>empty-message</strong>, 
+			which include the error message in case the data in the field is specified incorrectly or the field is just empty.</p>			
+            
+			<p>There is also <strong>div</strong> container with the class <strong>success-message</strong> inside the form, which is displayed after the message has been sent.</p>
+
+		<h4>Script Initialization</h4>
+			<div class="inner">
+			  <p>To activate the contact form you need to include contact from script in the <strong>&lt;head&gt;</strong> section of HTML file and copy <strong>"bat"</strong> folder to your website root folder. The <strong>"bat"</strong> folder should contain 1 file: <strong>MailHandler.php</strong></p>
+			  		 	<pre  class="prettyprint linenums">&lt;script type="text/javascript" src="js/jquery-1.7.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/forms.js"&gt;&lt;/script&gt;</pre>
+				
+				<p>After this you should initialize your contact form on the <i><b>$(window).load() :</b></i> event</p>
+					<pre class="prettyprint linenums">&lt;script type="text/javascript"&gt;
+$(window).load(function(){
+  $('#contact-form').forms({
+    ownerEmail:'#'
+  })
+})
+&lt;/script&gt;</pre>
+				<p>Use the following parameters for initialization:</p>
+					<ul class="square-list">
+						<li><strong>ownerEmail</strong> &ndash; the Email address the data will be sent to;
+						<li><strong>successShow</strong> &ndash; the period of time in milliseconds, during which the Send Message will be shown and after which the fields will be emptied, by default it is 4000 - 4 sec.</li>
+					</ul>
+			</div>
+        </article>
+        <!---->
+         <h3 id="search-engine" class="scrollTo">Search engine manual</h3>
+         <article class="search-engine">		<p>Attention! Search feature will not work locally. It works only on a hosting-server with PHP enabled.</p>
+         <div class="bs-docs-example">
+					
+					<span class="word">Enter a word to search for:</span>
+					<form id="search" action="search.php" method="GET" accept-charset="utf-8">
+					   <input type="text" name="s" />
+					   <a onclick="document.getElementById('search').submit()">Search</a>
+					</form>	          		
+					<span class="example">For instance: lorem, ipsum, dolor</span>
+          </div>
+          <pre class="prettyprint linenums">&lt;form id="search" action="search.php" method="GET" accept-charset="utf-8"&gt;
+   &lt;input type="text" name="s" /&gt;
+   &lt;a onclick="document.getElementById('search').submit()"&gt;Search&lt;/a&gt;
+&lt;/form&gt;</pre>
+					<h4>Description</h4>
+					<div class="inner">
+						<p><strong>Files needed to work with the form:</strong></p>
+						<div class="inner">
+							<ul class="square-list">
+								<li><strong>jquery.js</strong> &ndash; jQuery library (the form will work with this version of library only);</li>
+								<li><strong>search.css</strong> &ndash; stylesheet file, which is being used for the search results pages stylization;</li>
+								<li><strong>search.php</strong> &ndash; page, where the search results will appear;</li>
+								<li><strong>search.js</strong> &ndash; script, which is responsible for the search results output in an iframe on the page <strong>search.php;</strong></li>
+								<li><strong>results.php</strong> &ndash; PHP script, which actually performs the search.</li>
+							</ul>
+						</div>
+						
+						<p class="pad">In this form we should define such parameters as: <strong>action="search.php"</strong> and <strong>method="get"</strong>, also set parameter for an input: <strong>name="s"</strong>. If you want to change the name of the search form, which is <strong>id="search"</strong> by default, you should change it on the line 3 in the file <strong>search.js</strong> as well, you can find it in <strong>search</strong> folder.</p>						
+					</div>
+					<h4>Settings</h4>
+					<div class="inner">
+						<p class="attention">Note, search form is enabled, configured and works by default. These steps are required if you are trying to use this search form in another project/template without working search form.</p>
+						<p>To make the form work correctly, please, perform the following steps:</p>
+						<ul class="square-list">
+							<li>copy <strong>search</strong> folder to the root directory with your *.html files;</li>
+							<li>move file <strong>search.php</strong> from the <strong>search</strong> folder to the root directory (with *.html files);</li>
+							<li>edit your form, using the directions above;</li>
+							<li>copy partly header and footer with all the connected scripts in the section <strong>&lt;head&gt;&lt;/head&gt;</strong> to the page <strong>search.php</strong>, but necessarily add connection of the file <strong>search.js</strong>. For example:
+							<pre  class="prettyprint linenums">&lt;link rel="stylesheet" href="css/reset.css" type="text/css" media="all"&gt;
+&lt;link rel="stylesheet" href="css/fonts.css" type="text/css" media="all"&gt;
+&lt;link rel="stylesheet" href="css/style.css" type="text/css" media="all"&gt;
+&lt;script src="js/jquery-1.7.1.min.js"&gt;&lt;/script&gt;
+&lt;script src="search/search.js"&gt;&lt;/script&gt;</pre></li>
+							<li>for the search results output add the following block to your content:
+								<pre class="prettyprint linenums">&lt;h3&gt;Search result:&lt;/h3&gt;
+&lt;div id="search-results"&gt;&lt;/div&gt;</pre>								
+							</li>
+							<li>change style of the search results, using <strong>search.css</strong>.</li>
+						</ul>			
+						<p>All the rest main styles of your template will be automatically pulled from the file <strong>style.css</strong> by the PHP script.</p>
+					</div>
+				</article> 
+         
+         
+         <!---->
+         <h3 id="under-construction" class="scrollTo">Countdown Script Manual (Under Construction page)</h3>
+         	<article>	
+          <div class="bs-docs-example">
+						<div class="counter_pos1">
+							<div id="counter"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+						</div></div>  
+            <pre class="prettyprint linenums">&lt;div id="counter"&gt;&lt;/div&gt;
+&lt;div class="counter_desc"&gt;
+  &lt;div class="days"&gt;Days&lt;/div&gt;
+  &lt;div class="hours"&gt;Hours&lt;/div&gt;
+  &lt;div class="minutes"&gt;Minutes&lt;/div&gt;
+  &lt;div class="seconds"&gt;Seconds&lt;/div&gt;
+&lt;/div></pre>
+          <div class="inner">
+						<p><strong>Features:</strong></p>
+						<div class="inner">
+							<ul class="square-list">
+								<li>counts time till exact date;</li>
+								<li>has custom skin designs.</li>
+							</ul>
+						</div>	
+					</div>
+					<h4>Description</h4>
+					<div class="inner">
+						<p><strong>Files needed to work with the timer:</strong></p>
+						<div class="inner">
+							<ul class="square-list">
+								<li><strong>jquery.min.js</strong> &ndash; jQuery library (the timer will work with this version of library only);</li>
+								<li><strong>jquery.countdown.min.js</strong> &ndash; the timer functionality;</li>
+								<li><strong>demo.css</strong> &ndash; the set of CSS styles for the timer stylization.</li>
+							</ul>
+						</div>
+						<strong class="code-pad">Please include the following files in the  &lt;head&gt; section of HTML file to start working with the timer:</strong>
+						<pre class="prettyprint linenums">&lt;link rel="stylesheet" href="css/demo.css" type="text/css" media="all"&gt;
+&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/jquery.countdown.min.js"&gt;&lt;/script&gt;</pre>					
+					</div>
+					<h4>Initialization</h4>
+					<div class="inner">
+						<p>You can find code for the timer initialization in the end of the <strong>jquery.countdown.min.js</strong> file:</p>
+							<pre class="prettyprint linenums">$(document).ready(function(){
+var _date=new Date()
+	,countdown_to={
+		year:2013
+		,month:6 
+		,date:13
+		,hours:0
+		,minutes:15
+		,seconds:00
+	}
+
+_date.setFullYear(countdown_to.year,countdown_to.month,countdown_to.date)
+_date.setHours(countdown_to.hours)
+_date.setMinutes(countdown_to.minutes)
+_date.setSeconds(countdown_to.seconds)
+
+/*code for demonstration*/
+_date=new Date()
+_date.setMonth(_date.getMonth()+8)
+/*end code for demonstration*/
+	
+$('#counter').countdown({
+	image: 'images/digits_inverted.png',
+	startTime: _date,
+	stepTime: 35
+});	
+});							</pre>
+						<p>The initialization occurs on the event <b><i>$(document).ready()</i></b>.</p> Parameters:
+						<ul class="square-list">
+							<li><strong>image</strong> &ndash; shows path to the image which will be used as a skin (the directory <strong>images</strong> contains files that you can use as skins for the timer);</li>
+							<li><strong>startTime</strong> &ndash; sets the final date of the countdown. Time countdown is implemented with  the help of variable <strong>_date</strong>;</li>
+							<li><strong>stepTime</strong> &ndash; sets cycle rate of numbers' animation.</li>							
+						</ul>
+						<p>The demo version shows the time that remains from the current date plus 8 months. That is why timer starts a new countdown every time you refresh the demo page. Here is a code where you can edit these parameters:</p>
+							<pre class="prettyprint linenums">
+/*code for demonstration*/
+_date=new Date()
+_date.setMonth(_date.getMonth()+8)
+/*end code for demonstration*/
+					</pre>
+						<p class="pad">If you want to set exact date, you should change variable <strong>_date</strong>. To do this you must change values for <strong>year, month</strong>(pay attention that months' numbering starts from zero)<strong>, date, hours, minutes, seconds</strong>. Here is a piece of code where you can change these parameters:<p>
+						<div class="pad">
+							<pre class="prettyprint linenums">$(document).ready(function(){
+var _date=new Date()
+	,countdown_to={
+		year:2013
+		,month:6 
+		,date:13
+		,hours:0
+		,minutes:15
+		,seconds:00
+	}
+});							</pre>
+						</div>
+						<p>Also you have to delete the following code:</p>
+							<pre class="prettyprint linenums">
+/*code for demonstration*/
+_date=new Date()
+_date.setMonth(_date.getMonth()+8)
+/*end code for demonstration*/
+						</pre>
+						<h4>Color themes</h4>
+						<p class="pad">Below you'll find examples of skin solutions for the timer. All these skins you can find in <strong>images</strong> directory.</p>
+						<div class="counter_pos">
+							<div id="counter9"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits_inverted.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter1"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits.png',
+});						</code></pre>
+						</div>	
+						</div>						
+						<div class="counter_pos">
+							<div id="counter2"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter3"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_blue.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter4"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_green.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter5"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_orange.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter6"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_purple.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter7"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_red.png',
+});						</code></pre>
+						</div>	
+						</div>
+						<div class="counter_pos">
+							<div id="counter8"></div>
+							<div class="counter_desc">
+								<div class="days">Days</div>
+								<div class="hours">Hours</div>
+								<div class="minutes">Minutes</div>
+								<div class="seconds">Seconds</div>
+							</div>	
+							<div class="code pad">
+							<pre><code>$('#counter').countdown({
+	image: 'images/digits2_yellow.png',
+});						</code></pre>
+						</div>	
+						</div>						
+					</div>
+				</article> 
+         <!---->
+         <h3 id="subscription-form" class="scrollTo">Subscription form manual</h3>
+          <article>
+    <h4>Subscribe Form Sample</h4>
+    <div class="inner">
+        <div class="bs-docs-example">
+        <form id="subscribe-form">
+          <div class="success">Your subscription request has been sent!</div>
+            <fieldset>
+            <label class="name">
+                <input type="text" value="Enter Name:">
+                <span class="error">*This is not a valid name.</span></label>
+            <label class="email">
+                <input type="email" value="Enter Email:">
+                <span class="error">*This is not a valid email address.</span></label>
+            <div class="btns"><a href="#" class="button" data-type="submit">Submit</a></div>
+          </fieldset>
+        </form>
+      </div>
+            <pre class="prettyprint linenums">
+&lt;form id="subscribe-form"&gt;
+  &lt;div class="success"&gt;Your subscription request&lt;br&gt; has been sent!&lt;/div&gt;
+    &lt;fieldset&gt;
+    &lt;label class="name"&gt;
+        &lt;input type="text" value="Enter Name:"&gt;
+        &lt;span class="error"&gt;*This is not a valid name.&lt;/span&gt;&lt;/label&gt;
+    &lt;label class="email"&gt;
+        &lt;input type="email" value="Enter Email:"&gt;
+        &lt;span class="error"&gt;*This is not a valid email address.&lt;/span&gt;&lt;/label&gt;
+    &lt;div class="btns"&gt;&lt;a href="#" class="button" data-type="submit"&gt;Submit&lt;/a&gt;&lt;/div&gt;
+  &lt;/fieldset&gt;
+&lt;/form&gt;                       </pre>
+    </div>
+
+    <!-- Getting started end -->
+    <h4>Description</h4>
+    <div class="inner"> The HTML structure inside the form is flexible, the only condition is that inputs should be placed inside the <strong>label</strong> tags that have class corresponding to their type.<br>
+        <p>There are following classes/types by default:</p>
+        <div>
+            <ul class="square-list">
+            <li><strong>name</strong> &ndash; the User's Name. Validation: digits are disallowed, not less than 2 symbols;</li>
+            <li><strong>email</strong> &ndash; the User's Email;</li>
+          </ul>
+            
+          </div>
+      </div>
+    <p>Also <strong>label</strong> tag mentioned above can contain nested <em><strong>span</strong></em> elements with class <strong>error</strong>, 
+        which include the error message in case the data in the field is specified incorrectly.</p>
+    
+    <h4>Script Initialization</h4>
+    <div class="inner">
+        <p>To activate the subscribe form you need to include subscribe form script in the <strong>&lt;head&gt;</strong> section of HTML file and copy <strong>"bat"</strong> folder to your website root folder. The <strong>"bat"</strong> folder should contain 1 file: <strong>MailHandler-sub.php</strong></p>
+        
+        <pre class="prettyprint linenums">&lt;script type="text/javascript" src="js/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="js/sForm.js"&gt;&lt;/script&gt;</pre>
+      
+        <p>After this you should initialize your subscription form on the $(window).load() : event at the end of sForm.js file</p>
+        <pre class="prettyprint linenums">
+$(window).load(function(){
+  $('#subscribe-form').sForm({
+    ownerEmail:'#',
+    sitename:'sitename.link'
+  })
+})					</pre>
+        <p>Use the following parameters for initialization:</p>
+        <ul class="square-list">
+            <li><strong>ownerEmail</strong> &ndash; the Email address the data will be sent to;</li>
+            <li><strong>sitename</strong> &ndash; website address which maintains subscription form.</li>
+          </ul>
+        <p>In case of successful subscription website owner and website visitor get two separate successful subscription confirmation emails. Website owner target email is grabbed from sForm.js file and website visitor email is an email specified during subscription.</p>
+      </div>
+    </article>
+</section>
+
+
+<section class="block-templates" id="uploading-template">
+  <h2><i class="icon-cogs"></i> Uploading template </h2>
+
+  <p>In order to make your site "live", you need to upload all the content of "<strong>site</strong>" folder from your local computer to your hosting server.</p>
+            <p>Please note: your website root depends on the directory structure on your hosting server. If you upload the &quot;<strong>site</strong>&quot; folder itself into your server, the root to your website will be <strong>http://your_domain_name/site</strong>. To avoid this and make the website root <strong>http://your_domain_name/</strong> please open the &quot;<strong>site</strong>&quot;  folder and upload the folder content. </p>
+            <p>This <a href="/help/how-upload-files-server-2.html" target="_blank">video tutorial will show you how you can upload files</a> to your host using free FTP software FileZilla.</p>
+            <p>This <a href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html" target="_blank">video tutorial will show you how you can upload files</a> to your host using hosting cPanel (WebHost Manager, WHM).</p>
+            <p class="error-box">Please do not upload the sources directory or any of the template source files to the hosting server. </p>
+
+</section>
+
+
+<section class="block-templates" id="conclusion">
+  <h2><i class="icon-question-sign"></i> Addendum <small>where to get help, support and additional information</small> </h2>
+
+  <p>We hope this manual was useful for you and helped you to install, edit the template and to resolve your issues.</p>
+            <div id="help_support">
+    <h4>Help and Support</h4>
+    <ul class="list">
+      <li><a href="http://chat.template-help.com/" target="_blank">Live chat</a></li>
+      <li><a href="http://esupport.template-help.com/index.php?/Tickets/Submit"  target="_blank">Help ticket system</a></li>
+    </ul>
+  </div>
+
+  <div id="help_support">
+    <h4>Instructions</h4>
+    <ul class="list">
+      <li><a target="_blank" href="/help/developer-tools.html">Developer Tools</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/hosting-faq/">Hosting FAQ</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/work-with-css/">Working with CSS</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/work-with-photoshop/">Working with Photoshop</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/work-with-html/">Working with HTML</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/work-with-files/">Working with Files</a></li>
+            <li><a target="_blank" href="/help/website-templates/js-animated/js-animated-tutorials/">JS animated templates tutorials</a></li>
+            <li><a target="_blank" href="/help/general-tutorials/work-with-fonts/">Working with fonts</a></li>
+    </ul>
+  </div>
+            
+
+</section>
+
+</div>
+</div>
+</div>
+
+  </div>
+  </div>
+  </div>
+   <!-- Footer
+    ================================================== -->
+    <footer>
+      <div class="container">        
+       Template Documentation<br>
+      &copy; 2013 <span id="copyright">Template Monster</span>
+      </div>
+    </footer>
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>
+    
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript"> 
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })(); 
+</script>
+    
+</body> 
+
+</html>
