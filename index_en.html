@@ -383,12 +383,12 @@
 			<div class="inner">
 			  <p>To activate the contact form you need to include contact from script in the <strong>&lt;head&gt;</strong> section of HTML file and copy <strong>"bat"</strong> folder to your website root folder. The <strong>"bat"</strong> folder should contain 1 file: <strong>MailHandler.php</strong></p>
 			  		 	<pre  class="prettyprint linenums">&lt;script type="text/javascript" src="js/jquery-1.7.min.js"&gt;&lt;/script&gt;
-&lt;script type="text/javascript" src="js/forms.js"&gt;&lt;/script&gt;</pre>
+&lt;script type="text/javascript" src="js/TMForm.js"&gt;&lt;/script&gt;</pre>
 				
 				<p>After this you should initialize your contact form on the <i><b>$(window).load() :</b></i> event</p>
 					<pre class="prettyprint linenums">&lt;script type="text/javascript"&gt;
 $(window).load(function(){
-  $('#contact-form').forms({
+  $('#contact-form').TMForm({
     ownerEmail:'#'
   })
 })
